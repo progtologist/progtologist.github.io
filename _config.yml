@@ -1,0 +1,13 @@
+# Site settings
+title: Aris Synodinos
+email: asynodin@mech.upatras.gr
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://progtologist.github.io" # the base hostname & protocol for your site
+twitter_username:       progtologist
+linkedin_username:      Aris Synodinos
+linkedin_url:           https://www.linkedin.com/pub/aris-synodinos/88/5b1/7b4
+github_username:        progtologist
+
+# Build settings
+markdown: kramdown
