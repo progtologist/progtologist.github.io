@@ -124,6 +124,10 @@ a#gplus:hover {
 	color: #dd4b39; 
 }
 
+a#lastfm:hover {
+	color: #e31b23;
+}
+
 a#github:hover { 
 	color: #e5e5e5; 
 }
