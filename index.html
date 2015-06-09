@@ -30,7 +30,7 @@
 		<a href="https://github.com/progtologist" target="_blank" class="fa fa-github" id="github" title="GitHub: progtologist"></a>&nbsp;
 		<a href="https://bitbucket.org/Progtologist" target="_blank" class="fa fa-bitbucket" id="bitbucket" title="BitBucket: Progtologist"></a>&nbsp;
 		<a href="https://gr.linkedin.com/in/arissynodinos" target="_blank" class="fa fa-linkedin" id="linkedin" title="LinkedIn: Aris Synodinos"></a>&nbsp;
-		<a href="#" target="_blank" id="mail" class="fa fa-envelope" title="Email: arissynod (at) gmail (dot) com"></a>
+		<a href="#" id="mail" class="fa fa-envelope" title="Email: arissynod (at) gmail (dot) com"></a>
 	</div>
 	<h2 style="color:#FF373B">Research</h2>
 	<div id="research">
@@ -61,7 +61,7 @@ $("#mail").click( function(e) {
     var username = "arissynod", 
           domain = "gmail.com";
 
-    window.location.href = "mailto:" + username + "@" + domain;
+    window.open("mailto:" + username + "@" + domain, '_blank');
 } );
 </script>
 
