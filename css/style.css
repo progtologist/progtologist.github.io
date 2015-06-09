@@ -25,8 +25,10 @@ h1 {
 }
 
 h2 {
+	font-size: 2em;
 	color: #FFF;
 	text-align: center;
+	text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
 }
 
 p { 
@@ -60,7 +62,16 @@ a:hover {
 }
 
 #social { 
-	display: table; 
+	display: table;
+	position: relative;
+	-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
 	font-family: FontAwesome; 
 	font-size: 1.5em; 
 	margin-bottom: 1.4em; 
@@ -84,6 +95,16 @@ a:hover {
 }
 
 #social a:hover { 
+	box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(2);
+    transition: all 200ms ease-in;
+    transform: scale(2);
 	color: #FFF; 
 	border-style: none; 
 }
@@ -118,6 +139,15 @@ a#mail:hover {
 
 #research { 
 	display: table; 
+	position: relative;
+	-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
 	font-family: academicons; 
 	font-size: 1.5em; 
 	margin-bottom: 1.4em; 
@@ -141,6 +171,16 @@ a#mail:hover {
 }
 
 #research a:hover { 
+	box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(2);
+    transition: all 200ms ease-in;
+    transform: scale(2);
 	color: #FFF; 
 	border-style: none; 
 }
@@ -153,8 +193,29 @@ a#researchgate:hover {
 	color: #4f4f4f;	
 }
 
+a#mendeley:hover {
+	color: #A11C1D;
+}
+
+a#orcid:hover {
+	color: #a6ce39;
+}
+
+a#impactstory:hover {
+	color: #ff4000;
+}
+
 #cv { 
 	display: table; 
+	position: relative;
+	-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
 	font-size: 1.5em; 
 	margin-bottom: 1.4em; 
 	-webkit-font-smoothing: antialiased; 
@@ -181,6 +242,19 @@ a#researchgate:hover {
 	border-style: none; 
 }
 
+#cv span:hover {
+	box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(2);
+    transition: all 200ms ease-in;
+    transform: scale(2);
+}
+
 
 @media (max-width: 1080px) {
 	#about { left: 12%; }
@@ -192,7 +266,19 @@ a#researchgate:hover {
 	#about { left: 3%; }
 }
 @media (max-width: 480px) {
-	#backstretch img { opacity: 0.3; }
+
+	h1 { 
+		color: #BFB8B8; 
+		font-family: 'Open Sans', sans-serif; 
+		font-size: 2em; 
+		line-height: 1em; 
+		margin-bottom: .5em; 
+		-webkit-font-smoothing: antialiased; 
+	}
+
+/*	#backstretch img { 
+		opacity: 0.3; 
+	}*/
 }
 @media (max-height: 540px) {
 	#about { top: 6%; }
