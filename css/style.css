@@ -262,6 +262,22 @@ a#impactstory:hover {
     transform: scale(2);
 }
 
+#last {
+	display: table; 
+	position: relative;
+	-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+	font-size: 1.5em; 
+	margin-bottom: 1.4em; 
+	-webkit-font-smoothing: antialiased; 
+	margin: 0 auto 0 auto !important; 
+}
 
 @media (max-width: 1080px) {
 	#about { left: 12%; }
