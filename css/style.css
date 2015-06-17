@@ -17,8 +17,7 @@ body {
 h1 { 
 	color: #BFB8B8; 
 	font-family: 'Open Sans', sans-serif; 
-	font-size: 3.2em; 
-	letter-spacing: .2em; 
+	font-size: 3em; 
 	line-height: 1em; 
 	margin-bottom: .5em; 
 	-webkit-font-smoothing: antialiased; 
@@ -52,14 +51,21 @@ a:hover {
 	border-bottom: 1px solid rgba(255,255,255,1); 
 }
 
+#wrapper {
+	display: block;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
 #about { 
 	border-radius: 10px;
 	border: 2px solid white;
 	background: rgba(255,255,255,0.1);
-	position: absolute; 
+/*	position: absolute; 
 	top: 12%; 
-	left: 17%; 
-	display: inline-block; 
+	left: 10%; 
+	display: inline-block; */
 	padding: 10px 10px 10px 10px; 
 	margin: 0 0 0 0 !important; 
 }
@@ -263,45 +269,29 @@ a#impactstory:hover {
 }
 
 #last {
-	display: table; 
-	position: relative;
-	-webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1); 
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1); 
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1);
-	font-size: 1.5em; 
-	margin-bottom: 1.4em; 
-	-webkit-font-smoothing: antialiased; 
-	margin: 0 auto 0 auto !important; 
+	border-radius: 10px;
+	border: 2px solid white;
+	background: rgba(255,255,255,0.1);
+	padding: 10px 10px 10px 10px;
+	margin: 10px 0 0 0 !important; 
 }
 
-@media (max-width: 1080px) {
-	#about { left: 12%; }
+#last img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-@media (max-width: 750px) {
-	#about { left: 6%; }
-}
-@media (max-width: 600px) {
-	#about { left: 3%; }
-}
+
 @media (max-width: 520px) {
 	h1 { 
 		font-size: 2.8em; 
 	}
 }
 @media (max-width: 460px) {
-		h1 { 
+	h1 { 
 		font-size: 1.7em; 
 	}
 }
-@media (max-height: 540px) {
-	#about { top: 6%; }
-}
 @media (max-height: 350px) {
-	#about { top: 3%; }
 	#about h1 { margin-bottom: .1em; }
 }
